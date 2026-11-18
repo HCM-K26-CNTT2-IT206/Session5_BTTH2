@@ -84,3 +84,12 @@ Giữ nguyên thứ tự H2/H3, không bỏ, không thêm mục.
 # ĐỊNH DẠNG
 Markdown: # Headline, đoạn Lead, ## H2, ### H3, mục CTA ở cuối.
 ```
+Prompt 4: Xử lý khi AI bị ngắt quãng
+```prompt 4
+Bài viết bị ngắt giữa chừng. Hãy tiếp tục viết ngay từ câu cuối cùng
+đã dừng: "[dán 1-2 câu cuối AI vừa viết]".
+Quy tắc:
+- Không viết lại phần đã có, không tóm tắt lại.
+- Giữ nguyên giọng văn, từ khóa và cấu trúc H2/H3 theo <output_2>.
+- Tiếp tục đến hết phần còn lại, kết thúc bằng CTA.
+```
